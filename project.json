@@ -1,0 +1,59 @@
+{
+  "name": "GovernmentRelations.Ajeer.WorkerOfferCreation",
+  "description": "Full cycle of worker offer creation on Ajeer website",
+  "main": "Main.xaml",
+  "dependencies": {
+    "AntiCaptchaLibrary": "[1.0.4]",
+    "BusterCaptchaImageLibrary": "[1.0.2]",
+    "OTPLibrary": "[1.0.2]",
+    "UiPath.Excel.Activities": "[2.7.2]",
+    "UiPath.Mail.Activities": "[1.7.2]",
+    "UiPath.System.Activities": "[19.10.1]",
+    "UiPath.UIAutomation.Activities": "[19.11.1]",
+    "WhatsAppLibrary": "[1.0.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.6.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "f6d202d6-05e4-4ed7-bd48-8678678ecf78",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
